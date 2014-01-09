@@ -1,6 +1,5 @@
 Links Examples
 -------------
-^I click the "(.*?)" within (\d+)(?:st|nd|rd|th) (.*?)$/)
 
     When [I] follow [text|id]
     When I click [text|id] within [css_selector]
