@@ -1,6 +1,8 @@
 What is that?
 ============
-this is a collaborative cucumber steps's list used for everyone that want join us :)
+This is a collaborative cucumber steps's list 
+
+fork it and used it. Everyone can contribute with pull requests :)
 
 
 Install Rails 
