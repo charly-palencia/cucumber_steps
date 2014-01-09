@@ -11,4 +11,8 @@ When(/^I click "(.*?)" within "(.*?)"$/) do |link, scope_selector|
   end
 end
 
-#
+When(/^I click the "(.*?)" within (\d+)(?:st|nd|rd|th) (.*?)$/) do |field, position, class_element|
+  scope_selector = "class_element:nth-child(#{position})"
+  step %{I click "#{field}" within "#{scope_selector}"}
+end
+
